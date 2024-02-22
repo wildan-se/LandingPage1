@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="public/output.css" />
-  <title>Javascript 30</title>
+  <title>Ondeck Landing Page</title>
 </head>
 
 <body class="bg-primary">
@@ -13,7 +13,7 @@
   <header class="absolute left-0 top-0 z-10 flex w-full items-center">
     <div class="container lg:mx-auto lg:max-w-full">
       <div class="relative flex items-center justify-between lg:justify-start">
-        <div class="p-4 lg:px-28 lg:py-8">
+        <div class="p-4 lg:px-36 lg:py-12">
           <a href="" class="">
             <svg width="109" height="32" viewBox="0 0 109 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -47,11 +47,11 @@
         </div>
 
         <nav id="nav-menu"
-          class="absolute  left-5 top-full mt-4  hidden max-w-[350px] rounded-xl bg-white shadow-lg lg:relative lg:mt-0 lg:flex lg:max-w-full lg:items-center lg:rounded-none lg:bg-transparent lg:p-2 lg:shadow-none">
+          class="absolute  left-5 top-full mt-4 hidden max-w-[350px] lg:ml-10 rounded-xl bg-white shadow-lg lg:relative lg:mt-0 lg:flex lg:max-w-full lg:items-center lg:rounded-none lg:bg-transparent lg:p-2 lg:shadow-none">
           <ul class="group block lg:flex  ">
-            <li class="flex flex-col p-4 lg:flex lg:px-1">
+            <li class="flex flex-col p-4 lg:flex lg:px-1 ">
               <a href=""
-                class="text-semibold mx-2 w-[100px] p-2 uppercase hover:text-secondary lg:mx-0 lg:gap-2 lg:p-1 lg:normal-case">Products
+                class="text-semibold mx-2 w-[100px] p-2 uppercase hover:text-secondary lg:mx-0 lg:gap-2 lg:p-1 lg:normal-case ">Products
               </a>
               <button id="btn-close"
                 class="absolute right-4 rounded-md p-1 transition duration-300 ease-in-out hover:bg-red-500 lg:hidden">
@@ -63,7 +63,7 @@
               </button>
 
               <div
-                class="overflow-y-auto h-40 lg:absolute lg:mt-8 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
+                class="overflow-y-auto h-40 lg:overflow-visible lg:hidden lg:absolute lg:mt-10  lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
                 <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
@@ -112,6 +112,7 @@
                   </li>
                 </ul>
               </div>
+
             </li>
           </ul>
 
@@ -122,7 +123,7 @@
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:absolute lg:mt-8 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
+                class="overflow-y-auto h-40 lg:overflow-visible lg:hidden  lg:absolute lg:mt-10  lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
                 <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
@@ -171,6 +172,7 @@
                   </li>
                 </ul>
               </div>
+
             </li>
           </ul>
           <ul class="group block lg:flex">
@@ -180,7 +182,7 @@
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:absolute lg:mt-8 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
+                class="overflow-y-auto h-40 lg:overflow-visible lg:absolute lg:mt-10 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
                 <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
@@ -239,7 +241,7 @@
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:absolute lg:mt-8 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
+                class="overflow-y-auto h-40 lg:overflow-visible  lg:absolute lg:mt-10 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
                 <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
@@ -292,15 +294,16 @@
           </ul>
 
           <div class="lg:flex lg:gap-2">
-            <ul class="hidden lg:ml-20 lg:flex">
+            <ul class="hidden lg:ml-40 lg:flex">
               <li class="lg:p-2">
                 <a href="" class="hover:text-secondary">Sign In</a>
               </li>
             </ul>
             <ul class="group hidden lg:flex">
               <li
-                class="bg-black transition duration-300 ease-in-out group-hover:bg-white lg:w-[100px] lg:rounded-md lg:p-2">
-                <a href="" class="text-white group-hover:text-black lg:flex lg:justify-center">Try for free</a>
+                class="bg-black transition duration-300 ease-in-out group-hover:bg-white lg:w-[150px] lg:rounded-md lg:p-2">
+                <a href="" class="text-white group-hover:text-black lg:flex lg:justify-center lg:items-center">Try for
+                  free</a>
               </li>
             </ul>
           </div>
@@ -313,31 +316,31 @@
   <!-- HERO START -->
   <main class="pt-32 lg:pt-40">
     <div class="container lg:mx-auto lg:max-w-full">
-      <div class="px-4 lg:flex lg:px-28">
-        <div class="lg:flex lg:flex-col">
-          <h1 class="text-4xl font-bold lg:flex lg:w-full lg:flex-wrap lg:text-5xl">
-            Ondeck is your remote<span class="text-3xl text-secondary lg:text-5xl">
+      <div class="px-4 lg:flex lg:px-36">
+        <div class="lg:flex lg:flex-col lg:pt-20">
+          <h1 class="text-4xl font-bold lg:flex lg:w-full lg:flex-wrap lg:text-6xl">
+            Ondeck is your remote<span class="text-3xl text-secondary lg:text-6xl">
               conference calling tool</span>
           </h1>
-          <p class="lg:text-md py-3 font-semibold lg:flex lg:py-4 lg:font-normal">
+          <p class="lg:text-xl py-3 font-semibold lg:flex lg:py-4 lg:font-normal">
             Ondeck is a service that allows you to create beatiful, online,
             and encrypted video calls for you and your remote team.
           </p>
         </div>
 
-        <figure class="hidden lg:flex lg:items-center lg:justify-end">
-          <img src="public/Assets/Hero Image.png" alt="Hero image" class="w-2/3" />
+        <figure class="hidden lg:flex lg:items-center lg:justify-center">
+          <img src="public/Assets/Hero Image.png" alt="Hero image" class="w-4/5" />
         </figure>
       </div>
 
-      <div class="px-4 py-2 lg:relative lg:-mt-36 lg:w-1/2 lg:px-28">
+      <div class="px-4 py-2 lg:relative lg:-mt-32 lg:w-1/2 lg:px-36">
         <button
           class="cursor-pointer rounded bg-gradient-to-r from-[#322829] to-[#F45C43] px-6 py-2 font-semibold text-white shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset] transition-shadow hover:shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-10px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset] focus:shadow-[inset_-12px_-8px_40px_#46464620]">
           Try for free
         </button>
 
         <div class="flex flex-row py-5">
-          <h2 class="lg:text-md flex text-nowrap text-sm">
+          <h2 class="lg:text-xl flex text-nowrap text-sm">
             5.0 Rating based reviews from:
           </h2>
           <div class="ml-9 flex gap-2 px-2 lg:gap-4">
@@ -393,7 +396,7 @@
   <!-- TELAH BEKERJA SAMA START-->
   <section class="mt-12 lg:mb-10 lg:mt-28">
     <div class="flex flex-wrap justify-center">
-      <h2 class="text-sm font-semibold">
+      <h2 class="text-sm font-semibold lg:text-xl">
         Trusted by 3+ million people at companies like
       </h2>
     </div>
