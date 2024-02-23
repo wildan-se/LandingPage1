@@ -11,9 +11,9 @@
 <body class="bg-primary">
   <!-- HEADER START -->
   <header class="absolute left-0 top-0 z-10 flex w-full items-center">
-    <div class="container lg:mx-auto lg:max-w-full">
-      <div class="relative flex items-center justify-between lg:justify-start">
-        <div class="p-4 lg:px-36 lg:py-12">
+    <div class="container lg:mx-auto  md:mx-auto md:max-w-full lg:max-w-full">
+      <div class="relative flex items-center justify-between lg:justify-start md:justify-start">
+        <div class="p-4 lg:px-36 md:px-4 md:py-10 lg:py-12">
           <a href="" class="">
             <svg width="109" height="32" viewBox="0 0 109 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -36,7 +36,7 @@
             </svg>
           </a>
         </div>
-        <div class="flex items-center px-6  lg:hidden">
+        <div class="flex items-center px-6 lg:hidden md:hidden">
           <button id="btn-hamburger">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -47,14 +47,14 @@
         </div>
 
         <nav id="nav-menu"
-          class="absolute  left-5 top-full mt-4 hidden max-w-[350px] lg:ml-10 rounded-xl bg-white shadow-lg lg:relative lg:mt-0 lg:flex lg:max-w-full lg:items-center lg:rounded-none lg:bg-transparent lg:p-2 lg:shadow-none">
-          <ul class="group block lg:flex  ">
-            <li class="flex flex-col p-4 lg:flex lg:px-1 ">
+          class="absolute left-5 top-full mt-4 hidden max-w-[350px] rounded-xl bg-white shadow-lg lg:relative md:relative md:ml-0 md:mt-0 lg:ml-10 lg:mt-0 lg:flex md:flex md:max-w-full lg:max-w-full md:items-center lg:items-center md:rounded-none lg:rounded-none md:bg-transparent lg:bg-transparent md:p-2 md:shadow-none lg:p-2 lg:shadow-none">
+          <ul class="group block lg:flex md:flex">
+            <li class="flex flex-col p-4 lg:flex md:flex md:px-0 lg:px-1">
               <a href=""
-                class="text-semibold mx-2 w-[100px] p-2 uppercase hover:text-secondary lg:mx-0 lg:gap-2 lg:p-1 lg:normal-case ">Products
+                class="text-semibold mx-2 w-[100px] p-2 uppercase hover:text-secondary lg:mx-0 md:mx-0 md:gap-1 md:p-1 lg:gap-2 lg:p-1 md:normal-case  lg:normal-case">Products
               </a>
               <button id="btn-close"
-                class="absolute right-4 rounded-md p-1 transition duration-300 ease-in-out hover:bg-red-500 lg:hidden">
+                class="absolute right-4 rounded-md p-1 transition duration-300 ease-in-out hover:bg-red-500 lg:hidden md:hidden">
                 <svg class="" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
@@ -63,8 +63,8 @@
               </button>
 
               <div
-                class="overflow-y-auto h-40 lg:overflow-visible lg:hidden lg:absolute lg:mt-10  lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
-                <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
+                class="h-40 overflow-y-auto lg:absolute md:absolute lg:mt-10 md:mt-10 lg:hidden md:hidden md:w-1/2  lg:w-1/2 lg:flex-col md:flex-col md:flex-wrap lg:flex-wrap md:overflow-visible lg:overflow-visible group-hover:lg:flex group-hover:md:flex">
+                <ul class="relative mt-4 lg:rounded-xl md:rounded-xl md:bg-white lg:bg-white md:p-2 lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
                       <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -116,15 +116,15 @@
             </li>
           </ul>
 
-          <ul class="group block lg:flex ">
+          <ul class="group block lg:flex">
             <li class="flex flex-col p-4 lg:flex lg:px-1">
               <a href=""
-                class="text-semibold mx-2 flex w-[100px] justify-between p-2 uppercase hover:text-secondary lg:mx-2 lg:normal-case">Challenges
+                class="text-semibold mx-2 flex w-[100px] justify-between p-2 uppercase hover:text-secondary lg:mx-2 md:mx-0 md:gap-1 md:p-1  md:normal-case lg:normal-case">Challenges
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:overflow-visible lg:hidden  lg:absolute lg:mt-10  lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
-                <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
+                class="h-40 overflow-y-auto lg:absolute md:absolute lg:mt-10 md:mt-10 lg:hidden md:hidden md:w-1/2  lg:w-1/2 lg:flex-col md:flex-col md:flex-wrap lg:flex-wrap md:overflow-visible lg:overflow-visible group-hover:lg:flex group-hover:md:flex">
+                <ul class="relative mt-4 lg:rounded-xl md:rounded-xl md:bg-white lg:bg-white md:p-2 lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
                       <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -178,12 +178,12 @@
           <ul class="group block lg:flex">
             <li class="flex flex-col p-4 lg:flex lg:px-1">
               <a href=""
-                class="text-semibold mx-2 flex w-[100px] justify-between p-2 uppercase hover:text-secondary lg:mx-2 lg:normal-case">Resources
+                class="text-semibold mx-2 flex w-[100px] justify-between p-2 uppercase hover:text-secondary lg:mx-2 md:mx-0 md:gap-1 md:p-1 md:normal-case lg:normal-case">Resources
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:overflow-visible lg:absolute lg:mt-10 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
-                <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
+                class="h-40 overflow-y-auto lg:absolute md:absolute lg:mt-10 md:mt-10 lg:hidden md:hidden md:w-1/2  lg:w-1/2 lg:flex-col md:flex-col md:flex-wrap lg:flex-wrap md:overflow-visible lg:overflow-visible group-hover:lg:flex group-hover:md:flex">
+                <ul class="relative mt-4 lg:rounded-xl md:rounded-xl md:bg-white lg:bg-white md:p-2 lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
                       <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -231,18 +231,19 @@
                   </li>
                 </ul>
               </div>
+
             </li>
           </ul>
           <ul class="group block lg:flex">
-            <li class="flex flex-col p-4 lg:flex lg:px-1">
+            <li class="flex flex-col p-4 md:flex md:px-1 lg:flex lg:px-1">
               <a href=""
-                class="text-semibold mx-2 flex justify-between p-2 uppercase hover:text-secondary lg:mx-2 lg:normal-case">Other
+                class="text-semibold mx-2 flex justify-between p-2 uppercase hover:text-secondary lg:mx-2 md:mx-0 md:gap-0 md:p-0 md:text-nowrap md:normal-case lg:normal-case">Other
                 Links
               </a>
 
               <div
-                class="overflow-y-auto h-40 lg:overflow-visible  lg:absolute lg:mt-10 lg:hidden lg:w-1/2 lg:flex-col lg:flex-wrap group-hover:lg:flex">
-                <ul class="relative mt-4 lg:rounded-xl lg:bg-white lg:p-2">
+                class="h-40 overflow-y-auto lg:absolute md:absolute lg:mt-10 md:mt-10 lg:hidden md:hidden md:w-1/2  lg:w-1/2 lg:flex-col md:flex-col md:flex-wrap lg:flex-wrap md:overflow-visible lg:overflow-visible group-hover:lg:flex group-hover:md:flex">
+                <ul class="relative mt-4 lg:rounded-xl md:rounded-xl md:bg-white lg:bg-white md:p-2 lg:p-2">
                   <li class="flex flex-wrap p-2" id="submenu">
                     <div class="">
                       <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -290,19 +291,22 @@
                   </li>
                 </ul>
               </div>
+
             </li>
           </ul>
 
-          <div class="lg:flex lg:gap-2">
-            <ul class="hidden lg:ml-40 lg:flex">
-              <li class="lg:p-2">
+          <div class="lg:flex md:flex md:gap-1 lg:gap-2">
+            <ul class="hidden md:ml-10 md:flex md:text-nowrap lg:ml-40 lg:flex">
+              <li class="lg:p-2 md:p-1">
                 <a href="" class="hover:text-secondary">Sign In</a>
               </li>
             </ul>
-            <ul class="group hidden lg:flex">
+            <ul class="group hidden lg:flex md:flex">
               <li
-                class="bg-black transition duration-300 ease-in-out group-hover:bg-white lg:w-[150px] lg:rounded-md lg:p-2">
-                <a href="" class="text-white group-hover:text-black lg:flex lg:justify-center lg:items-center">Try for
+                class="bg-black transition duration-300 ease-in-out group-hover:bg-white md:w-[125px] lg:w-[150px] md:rounded-sm md:p-0 lg:rounded-md lg:p-2">
+                <a href=""
+                  class="text-white group-hover:text-black lg:flex md:flex md:items-center lg:items-center md:justify-center lg:justify-center">Try
+                  for
                   free</a>
               </li>
             </ul>
@@ -314,36 +318,38 @@
   <!-- HEADER END -->
 
   <!-- HERO START -->
-  <main class="pt-32 lg:pt-40">
-    <div class="container lg:mx-auto lg:max-w-full">
-      <div class="px-4 lg:flex lg:px-36">
-        <div class="lg:flex lg:flex-col lg:pt-20">
-          <h1 class="text-4xl font-bold lg:flex lg:w-full lg:flex-wrap lg:text-6xl">
-            Ondeck is your remote<span class="text-3xl text-secondary lg:text-6xl">
+  <main class="pt-32 lg:pt-40 md:pt-48 ">
+    <div class="container lg:mx-auto md:mx-auto md:max-w-full lg:max-w-full">
+      <div class="px-4 lg:flex md:flex md:px-4 lg:px-36">
+        <div class="lg:flex lg:flex-col md:flex md:flex-col md:pt-14 lg:pt-20">
+          <h1
+            class="text-4xl font-bold lg:flex md:flex md:w-full  md:flex-wrap lg:w-full lg:flex-wrap md:text-4xl lg:text-6xl">
+            Ondeck is your remote<span class="text-3xl text-secondary md:text-4xl lg:text-6xl">
               conference calling tool</span>
           </h1>
-          <p class="lg:text-xl py-3 font-semibold lg:flex lg:py-4 lg:font-normal">
+          <p
+            class="py-3 font-semibold lg:flex md:flex md:py-3 md:text-xl  lg:py-4 lg:text-xl lg:font-normal md:font-normal">
             Ondeck is a service that allows you to create beatiful, online,
             and encrypted video calls for you and your remote team.
           </p>
         </div>
 
-        <figure class="hidden lg:flex lg:items-center lg:justify-center">
-          <img src="public/Assets/Hero Image.png" alt="Hero image" class="w-4/5" />
+        <figure class="hidden lg:flex md:flex md:items-center md:justify-center lg:items-center lg:justify-center">
+          <img src="public/Assets/Hero Image.png" alt="Hero image" class="w-4/5 md:w-full" />
         </figure>
       </div>
 
-      <div class="px-4 py-2 lg:relative lg:-mt-32 lg:w-1/2 lg:px-36">
+      <div class="px-4 py-2 lg:relative md:relative md:-mt-36 lg:-mt-32 md:w-1/2  lg:w-1/2 lg:px-36">
         <button
           class="cursor-pointer rounded bg-gradient-to-r from-[#322829] to-[#F45C43] px-6 py-2 font-semibold text-white shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-1px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset] transition-shadow hover:shadow-[rgba(6,_24,_44,_0.4)_0px_0px_0px_2px,_rgba(6,_24,_44,_0.65)_0px_4px_6px_-10px,_rgba(255,_255,_255,_0.08)_0px_1px_0px_inset] focus:shadow-[inset_-12px_-8px_40px_#46464620]">
           Try for free
         </button>
 
         <div class="flex flex-row py-5">
-          <h2 class="lg:text-xl flex text-nowrap text-sm">
+          <h2 class="flex text-nowrap text-sm lg:text-xl md:text-xl">
             5.0 Rating based reviews from:
           </h2>
-          <div class="ml-9 flex gap-2 px-2 lg:gap-4">
+          <div class="ml-9 flex gap-2 px-2 lg:gap-4 md:gap-3">
             <span>
               <svg width="23" height="23" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 8.82421L10.1371 8.8262L16.3012 8.82723V2.83128L0 8.82421Z" fill="#FF9D28" />
@@ -394,9 +400,9 @@
   <!-- HERO END -->
 
   <!-- TELAH BEKERJA SAMA START-->
-  <section class="mt-12 lg:mb-10 lg:mt-28">
+  <section class="mt-12 lg:mb-10 lg:mt-28 md:mt-72 ">
     <div class="flex flex-wrap justify-center">
-      <h2 class="text-sm font-semibold lg:text-xl">
+      <h2 class="text-sm font-semibold lg:text-xl md:text-xl">
         Trusted by 3+ million people at companies like
       </h2>
     </div>
